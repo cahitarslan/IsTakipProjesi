@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "StatusCode";
+    Layout = "~/Views/Shared/_StandartLayout.cshtml";
+}
+
+<div class="row pt-5">
+    <div class="col-md-4">
+        <img src="~/img/Symbols-Warning-icon.png" class="w-75 img-fluid" style="filter:brightness(100%);" />
+    </div>
+    <div class="col-md-8 display-4 text-white">
+        @ViewBag.Code
+        <br />
+        @ViewBag.Message
+    </div>
+</div>
+
